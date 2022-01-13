@@ -1,6 +1,6 @@
 ## REACT-STUDY
 
-#### [2022.01.13](https://github.com/jhyoon9705/react-study/tree/main/docs/20220103)
+#### [2022.01.13](https://github.com/jhyoon9705/react-study/blob/main/docs/20220113.md)
 
 - Props
 - State
