@@ -1,4 +1,4 @@
-## 2022.01.13
+# 2022.01.13
 
 ---
 
@@ -6,25 +6,25 @@
   - [1. defaultProps](#1-defaultprops)
   - [2. propTypes](#2-proptypes)
 - [State](#state)
-  - [1. 클래스형 컴포넌트의 state](#1------------state)
-  - [2. 함수형 컴포넌트의 state](#2-----------state)
-  - [3. state를 사용할 때 주의사항](#3-state------------)
-- [이벤트 핸들링(Event handling)](#--------event-handling-)
-  - [1. input 여러 개 다루기](#1-input---------)
-  - [2. onKeyPress 이벤트 핸들링](#2-onkeypress--------)
-- [ref: DOM에 이름달기](#ref--dom------)
-  - [1. DOM을 꼭 사용해야 하는 상황(= state만으로 해결할 수 없는 상황 → DOM에 직접 접근)](#1-dom-----------------state------------------dom--------)
-  - [2. Callback 함수를 이용한 ref 설정(class-type components)](#2-callback---------ref----class-type-components-)
-  - [3. createRef를 이용한 ref 설정(class-type components)](#3-createref------ref----class-type-components-)
-  - [4. Component에 ref 달기](#4-component--ref---)
+  - [1. 클래스형 컴포넌트의 state](#1-클래스형-컴포넌트의-state)
+  - [2. 함수형 컴포넌트의 state](#2-함수형-컴포넌트의-state)
+  - [3. state를 사용할 때 주의사항](#3-state를-사용할-때-주의사항)
+- [이벤트 핸들링](#이벤트-핸들링)
+  - [1. input 여러 개 다루기](#1-input-여러-개-다루기)
+  - [2. onKeyPress 이벤트 핸들링](#2-onkeypress-이벤트-핸들링)
+- [ref: DOM에 이름달기](#ref-dom에-이름달기)
+  - [1. DOM을 꼭 사용해야 하는 상황](#1-dom을-꼭-사용해야-하는-상황)
+  - [2. Callback 함수를 이용한 ref 설정(class type components)](#2-callback-함수를-이용한-ref-설정class-type-components)
+  - [3. createRef를 이용한 ref 설정(class type components)](#3-createref를-이용한-ref-설정class-type-components)
+  - [4. Component에 ref 달기](#4-component에-ref-달기)
 
 ---
 
-#### Props
+## Props
 
 : 컴포넌트가 사용되는 과정에서 부모 컴포넌트가 설정하는 값
 
-##### 1. defaultProps
+### 1. defaultProps
 
 - props 값을 따로 지정하지 않았을 때 보여줄 기본값을 설정
 
@@ -34,7 +34,7 @@ MyComponent.defaultProps = {
 };
 ```
 
-##### 2. propTypes
+### 2. propTypes
 
 - 컴포넌트의 필수 props를 지정하거나 props의 type을 지정
 - 코드 상단에 `import PropTypes from 'prop-types';` 필요
@@ -53,11 +53,11 @@ MyComponent.propTypes = {
 
 <br/>
 
-#### State
+## State
 
 : 컴포넌트 내부에서 바뀔 수 있는 값
 
-##### 1. 클래스형 컴포넌트의 state
+### 1. 클래스형 컴포넌트의 state
 
 - state 설정: constructor 메소드를 작성하여 설정
 - state 조회: `this.state` 사용
@@ -83,7 +83,7 @@ constructor(props) {
 }
 ```
 
-##### 2. 함수형 컴포넌트의 state
+### 2. 함수형 컴포넌트의 state
 
 - `useState()` 사용
 
@@ -93,7 +93,7 @@ const [message, setMessage] = useState('');
 const onClickEnter = () => setMessage('Hello!');
 ```
 
-##### 3. state를 사용할 때 주의사항
+### 3. state를 사용할 때 주의사항
 
 - state의 값을 바꾸어야 할 때에는 `setState` 또는 `useState`를 통해 전달받은 setter 함수를 사용
 - **배열이나 객체를 업데이트 할 때에는, 해당 데이터의 사본을 만들고 그 사본에 값을 덥데이트한 후, 그 사본의 상태를 setState 혹은 setter 함수를 통해 업데이트**
@@ -115,9 +115,10 @@ newArray.map((item) => (item.id === 1 ? { ...item, value: false } : item));
 ```
 
 <br/>
-#### 이벤트 핸들링(Event handling)
 
-##### 1. input 여러 개 다루기
+## 이벤트 핸들링
+
+### 1. input 여러 개 다루기
 
 - "event 객체를 활용" 또는 "`onChange` 관련 함수를 2개 작성"
 
@@ -149,7 +150,7 @@ render() {
 }
 ```
 
-##### 2. onKeyPress 이벤트 핸들링
+### 2. onKeyPress 이벤트 핸들링
 
 ex) `Enter`를 눌렀을 때 `handleClick()` 메소드를 실행할 경우
 
@@ -166,19 +167,20 @@ handleKeyPress = e => {
 
 <br/>
 
-#### ref: DOM에 이름달기
+## ref: DOM에 이름달기
 
 - React 프로젝트 내부에서 DOM에 이름을 다는 것
 - ref는 id와 달리 전역적으로 작동하지 않고 컴포넌트 내부에서만 작동
 - 함수형 컴포넌트에서는 Hook(useRef)을 이용하여 ref를 사용
 
-##### 1. DOM을 꼭 사용해야 하는 상황(= state만으로 해결할 수 없는 상황 → DOM에 직접 접근)
+### 1. DOM을 꼭 사용해야 하는 상황
 
+- (= state만으로 해결할 수 없는 상황 → DOM에 직접 접근)
 - 여러 input 중 특정 input에 포커스 주기
 - 스크롤 박스 조작하기
 - Canvas 요소에 그림 그리기 등
 
-##### 2. Callback 함수를 이용한 ref 설정(class-type components)
+### 2. Callback 함수를 이용한 ref 설정(class type components)
 
 - ref를 달고자 하는 요소에 `ref`라는 callback 함수를 props로 전달
 - 이 callback 함수는 ref 값을 파라미터로 전달받음
@@ -194,7 +196,7 @@ handleKeyPress = e => {
 // ref의 이름은 자유(ex. this.hello)
 ```
 
-##### 3. createRef를 이용한 ref 설정(class-type components)
+### 3. createRef를 이용한 ref 설정(class type components)
 
 - React 내장 `createRef` 함수 사용
 - React v16.3부터 도입
@@ -219,7 +221,7 @@ class RefSample extends Component {
 ...
 ```
 
-##### 4. Component에 ref 달기
+### 4. Component에 ref 달기
 
 - 주로 component 내부에 있는 DOM을 component 외부에서 사용할 때 사용
 - DOM에 ref를 다는 방법과 동일
@@ -236,12 +238,12 @@ class RefSample extends Component {
 
 <br/>
 
-##### 참고) A. onClick={this.myComp.meth} vs B. onClick={()=>this.myComp.meth()}
+### 참고) A. onClick={this.myComp.meth} vs B. onClick={()=>this.myComp.meth()}
 
 - A 방법으로 할 경우, 처음 렌더링될 때에는 this.myComp 값이 undefined이므로 `this.myComp.meth`를 읽어오는 과정에서 오류 발생
 - 반면, **화살표 함수 문법을 사용하여 아예 새로운 함수를 만들고 그 내부에서 `this.myComp.meth` 메소드를 실행**하면, 버튼을 누를 때(이미 한 번 렌더링을 해서 `this.myComp`를 설정한 시점) `this.myComp.meth` 값을 읽어와서 실행하므로 오류가 발생하지 않음
 
-##### 주의)
+### 주의)
 
 - 먼저 ref를 사용하지 않고도 원하는 기능을 구현할 수 있는지 반드시 고려한 후 사용
 - 컴포넌트끼리 데이터를 교류할 때에는 언제나 데이터를 **부모 ↔ 자식 흐름으로 교류**해야 함 (효율적으로 교류하는 방법: Redux, Context API etc.)
