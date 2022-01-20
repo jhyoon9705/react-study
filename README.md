@@ -1,5 +1,7 @@
 ## REACT-STUDY
 
+### [Contents]
+
 #### [2022.01.13](https://github.com/jhyoon9705/react-study/blob/main/docs/20220113.md)
 
 - Props
@@ -19,3 +21,7 @@
 #### [2022.01.19](https://github.com/jhyoon9705/react-study/blob/main/docs/20220119.md)
 
 - 컴포넌트 성능 최적화
+
+#### [2022.01.20](https://github.com/jhyoon9705/react-study/blob/main/docs/20220120.md)
+
+- immer를 사용하여 더 쉽게 불변성 유지하기
