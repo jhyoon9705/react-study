@@ -63,6 +63,15 @@
 
 - immer를 사용하여 더 쉽게 불변성 유지하기
 
+#### [2022.02.05](https://github.com/jhyoon9705/react-study/blob/main/docs/20220205.md)
+
+- SPA(Single Page Application)
+- 리액트 라우터
+- Route 하나에 여러 개의 path 설정하기
+- URL 파라미터와 쿼리
+- 서브 라우트
+- 리액트 라우터 부가 기능
+
 <br />
 
 ##### ※ 위 내용은 리액트를 다루는 기술(길벗, 김민준 저) 도서를 참조하여 작성하였습니다.
