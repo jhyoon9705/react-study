@@ -35,6 +35,8 @@
 
 ![DomUpdate](./docs/images/react-vdom-dom.jpg)
 
+(Image taken from https://mokkapps.de/blog/debug-why-react-re-renders-a-component/)
+
 ### [Contents]
 
 #### [2022.01.13](https://github.com/jhyoon9705/react-study/blob/main/docs/20220113.md)
