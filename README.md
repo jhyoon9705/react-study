@@ -35,8 +35,6 @@
 
 ![DomUpdate](./docs/images/react-vdom-dom.jpg)
 
-<br />
-
 ### [Contents]
 
 #### [2022.01.13](https://github.com/jhyoon9705/react-study/blob/main/docs/20220113.md)
@@ -62,3 +60,7 @@
 #### [2022.01.20](https://github.com/jhyoon9705/react-study/blob/main/docs/20220120.md)
 
 - immer를 사용하여 더 쉽게 불변성 유지하기
+
+<br />
+
+##### ※ 위 내용은 리액트를 다루는 기술(길벗, 김민준 저) 도서를 참조하여 작성하였습니다.
