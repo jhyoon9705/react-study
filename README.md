@@ -72,6 +72,13 @@
 - 서브 라우트
 - 리액트 라우터 부가 기능
 
+#### [2022.02.06-1](https://github.com/jhyoon9705/react-study/blob/main/docs/20220206-1.md)
+
+- 콜백 함수
+- Promise
+- async/await
+- axios로 API 호출해서 데이터 받아오기
+
 <br />
 
 ##### ※ 위 내용은 리액트를 다루는 기술(길벗, 김민준 저) 도서를 참조하여 작성하였습니다.
