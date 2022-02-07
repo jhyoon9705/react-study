@@ -84,10 +84,25 @@
 - Context API를 사용한 전역 상태 관리 흐름
 - Context API 사용법
   - 새 Context 만들기
-  - b. Consumer
-  - c. Provider
+  - Consumer
+  - Provider
 - 동적 Context 사용법
 - Consumer 대신 useContext 사용하기
+
+#### [2022.02.07](https://github.com/jhyoon9705/react-study/blob/main/docs/20220207.md)
+
+- 리덕스 키워드
+  - 액션(action)
+  - 액션 생성 함수(action creator)
+  - 리듀서(reducer)
+  - 스토어(store)
+  - 디스패치(dispatch)
+  - 구독(subscribe)
+- 리덕스의 세 가지 규칙
+  - 단일 스토어
+  - 읽기 전용 상태
+  - 리듀서는 순수한 함수
+- Redux 예시(React 없이)
 
 <br />
 
