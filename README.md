@@ -91,6 +91,8 @@
 
 #### [2022.02.07](https://github.com/jhyoon9705/react-study/blob/main/docs/20220207.md)
 
+##### 리덕스 라이브러리
+
 - 리덕스 키워드
   - 액션(action)
   - 액션 생성 함수(action creator)
@@ -106,6 +108,8 @@
 - 참고) 리액트 프로젝트에서 리덕스를 사용할 때
 
 #### [2022.02.08](https://github.com/jhyoon9705/react-study/blob/main/docs/20220208.md)
+
+##### 리액트 애플리케이션에 리덕스 적용하기
 
 - 스토어 만들기
 - Provider 컴포넌트를 사용하여 프로젝트에 리덕스 적용하기
