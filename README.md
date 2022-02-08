@@ -103,6 +103,19 @@
   - 읽기 전용 상태
   - 리듀서는 순수한 함수
 - Redux 예시(React 없이)
+- 참고) 리액트 프로젝트에서 리덕스를 사용할 때
+
+#### [2022.02.08](https://github.com/jhyoon9705/react-study/blob/main/docs/20220208.md)
+
+- 스토어 만들기
+- Provider 컴포넌트를 사용하여 프로젝트에 리덕스 적용하기
+- Redux DevTools 설치 및 적용
+- 컨테이너 컴포넌트 만들기
+- 리덕스 더 편하게 사용하기(redux-actions)
+- Hooks를 사용하여 컨테이너 컴포넌트 만들기
+  - useSelector로 상태조회 하기
+  - useDispatch로 액션 디스패치 하기
+- connect vs redux hooks
 
 <br />
 
