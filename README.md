@@ -37,33 +37,33 @@
 
 (Image taken from https://mokkapps.de/blog/debug-why-react-re-renders-a-component/)
 
-### [Contents]
+## [Contents]
 
-#### [2022.01.13](https://github.com/jhyoon9705/react-study/blob/main/docs/20220113.md)
+### [2022.01.13](https://github.com/jhyoon9705/react-study/blob/main/docs/20220113.md)
 
 - Props
 - State
 - 이벤트 핸들링
 - ref: DOM에 이름달기
 
-#### [2022.01.14](https://github.com/jhyoon9705/react-study/blob/main/docs/20220114.md)
+### [2022.01.14](https://github.com/jhyoon9705/react-study/blob/main/docs/20220114.md)
 
 - 컴포넌트 반복
 - 라이프사이클 메소드
 
-#### [2022.01.18](https://github.com/jhyoon9705/react-study/blob/main/docs/20220118.md)
+### [2022.01.18](https://github.com/jhyoon9705/react-study/blob/main/docs/20220118.md)
 
 - Hooks
 
-#### [2022.01.19](https://github.com/jhyoon9705/react-study/blob/main/docs/20220119.md)
+### [2022.01.19](https://github.com/jhyoon9705/react-study/blob/main/docs/20220119.md)
 
 - 컴포넌트 성능 최적화
 
-#### [2022.01.20](https://github.com/jhyoon9705/react-study/blob/main/docs/20220120.md)
+### [2022.01.20](https://github.com/jhyoon9705/react-study/blob/main/docs/20220120.md)
 
 - immer를 사용하여 더 쉽게 불변성 유지하기
 
-#### [2022.02.05](https://github.com/jhyoon9705/react-study/blob/main/docs/20220205.md)
+### [2022.02.05](https://github.com/jhyoon9705/react-study/blob/main/docs/20220205.md)
 
 - SPA(Single Page Application)
 - 리액트 라우터
@@ -72,14 +72,14 @@
 - 서브 라우트
 - 리액트 라우터 부가 기능
 
-#### [2022.02.06-1](https://github.com/jhyoon9705/react-study/blob/main/docs/20220206-1.md)
+### [2022.02.06-1](https://github.com/jhyoon9705/react-study/blob/main/docs/20220206-1.md)
 
 - 콜백 함수
 - Promise
 - async/await
 - axios로 API 호출해서 데이터 받아오기
 
-#### [2022.02.06-2](https://github.com/jhyoon9705/react-study/blob/main/docs/20220206-2.md)
+### [2022.02.06-2](https://github.com/jhyoon9705/react-study/blob/main/docs/20220206-2.md)
 
 - Context API를 사용한 전역 상태 관리 흐름
 - Context API 사용법
@@ -89,9 +89,9 @@
 - 동적 Context 사용법
 - Consumer 대신 useContext 사용하기
 
-#### [2022.02.07](https://github.com/jhyoon9705/react-study/blob/main/docs/20220207.md)
+### [2022.02.07](https://github.com/jhyoon9705/react-study/blob/main/docs/20220207.md)
 
-##### 리덕스 라이브러리
+#### 리덕스 라이브러리
 
 - 리덕스 키워드
   - 액션(action)
@@ -107,9 +107,9 @@
 - Redux 예시(React 없이)
 - 참고) 리액트 프로젝트에서 리덕스를 사용할 때
 
-#### [2022.02.08](https://github.com/jhyoon9705/react-study/blob/main/docs/20220208.md)
+### [2022.02.08](https://github.com/jhyoon9705/react-study/blob/main/docs/20220208.md)
 
-##### 리액트 애플리케이션에 리덕스 적용하기
+#### 리액트 애플리케이션에 리덕스 적용하기
 
 - 스토어 만들기
 - Provider 컴포넌트를 사용하여 프로젝트에 리덕스 적용하기
@@ -120,6 +120,20 @@
   - useSelector로 상태조회 하기
   - useDispatch로 액션 디스패치 하기
 - connect vs redux hooks
+
+### [2022.02.09](https://github.com/jhyoon9705/react-study/blob/main/docs/20220209.md)
+
+#### 리덕스 미들웨어를 통한 비동기 작업 관리
+
+- 미들웨어(Middleware)
+  - 미들웨어 만들기
+  - redux-logger 사용하기
+- 비동기 작업을 처리하는 미들웨어 사용
+  - redux-thunk
+    - thunk란?
+    - 미들웨어 적용하기
+    - hunk 생성 함수 만들기
+  - redux-saga
 
 <br />
 
