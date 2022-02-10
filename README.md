@@ -135,6 +135,17 @@
     - hunk 생성 함수 만들기
   - redux-saga
 
+### [2022.02.10](https://github.com/jhyoon9705/react-study/blob/main/docs/20220210.md)
+
+#### 코드 스플리팅(Code splitting)
+
+- JS 함수 비동기 로딩
+- React.lazy와 Suspense를 통한 컴포넌트 코드 스플리팅
+  - state를 사용한 코드 스플리팅
+  - React.lazy와 Suspense 사용하기
+- Loadable Components를 통한 코드 스플리팅
+- React.lazy와 Suspense vs Loadable Components
+
 <br />
 
 ##### ※ 위 내용은 리액트를 다루는 기술(길벗, 김민준 저) 도서를 참조하여 작성하였습니다.
