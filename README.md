@@ -146,6 +146,25 @@
 - Loadable Components를 통한 코드 스플리팅
 - React.lazy와 Suspense vs Loadable Components
 
+### [2022.02.11](https://github.com/jhyoon9705/react-study/blob/main/docs/20220211.md)
+
+#### 서버 사이드 렌더링(Server-Side Rendering, SSR)
+
+- 서버 사이드 렌더링의 이해
+  - 서버 사이드 렌더링의 장점
+  - 서버 사이드 렌더링의 단점
+  - 서버 사이드 렌더링과 코드 스플리팅 충돌
+- 서버 사이드 렌더링 구현하기
+  - 엔트리 만들기
+  - SSR 전용 웹팩 환경 설정 작성하기
+  - 빌드 스크립트 작성하기
+  - 서버 코드 작성하기
+  - 정적 파일 제공하기
+- 데이터 로딩
+- 참고) SSR의 환경 구축을 위한 대안
+  - Next.js
+  - Razzle
+
 <br />
 
 ##### ※ 위 내용은 리액트를 다루는 기술(길벗, 김민준 저) 도서를 참조하여 작성하였습니다.
