@@ -1,4 +1,4 @@
-## REACT(리액트)
+<p align='center'><img src="/docs/images/react.png" width="220"></p>
 
 ### React 이해
 
@@ -35,9 +35,10 @@
 
 ![DomUpdate](./docs/images/react-vdom-dom.jpg)
 
-(Image taken from https://mokkapps.de/blog/debug-why-react-re-renders-a-component/)
+_Image taken from https://mokkapps.de/blog/debug-why-react-re-renders-a-component/_
+<br/>
 
-## [Contents]
+### [Contents]
 
 ### [2022.01.13](https://github.com/jhyoon9705/react-study/blob/main/docs/20220113.md)
 
@@ -168,3 +169,29 @@
 <br />
 
 ##### ※ 위 내용은 리액트를 다루는 기술(길벗, 김민준 저) 도서를 참조하여 작성하였습니다.
+
+---
+
+<p align='center'><img src="/docs/images/typescript.png" width="220"></p>
+
+### [Contents]
+
+### [2022.02.14](https://github.com/jhyoon9705/react-study/blob/main/docs/20220214.md)
+
+#### Typescript 기초
+
+- Typescript를 써야하는 이유
+- 환경 준비
+  - 타입스크립트 설정파일 생성
+  - 타입스크립트 파일 만들기
+- 기본 타입
+- 함수에서의 타입 정의
+- interface 사용하기
+  - 클래스에서 interface를 implements 하기
+- 일반 객체를 interface로 타입 설정하기
+- Type Alias 사용하기
+- Generics
+  - 함수에서 Generics 사용하기
+  - interface에서 Generics 사용하기
+  - Type Alias에서 Generics 사용하기
+  - 클래스에서 Generics 사용하기
