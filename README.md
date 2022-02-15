@@ -195,3 +195,17 @@ _Image taken from https://mokkapps.de/blog/debug-why-react-re-renders-a-componen
   - interface에서 Generics 사용하기
   - Type Alias에서 Generics 사용하기
   - 클래스에서 Generics 사용하기
+
+### [2022.02.15](https://github.com/jhyoon9705/react-study/blob/main/docs/20220215.md)
+
+#### Typescript로 리액트 컴포넌트 작성하기
+
+- 프로젝트 생성
+  - 새로운 프로젝트를 생성할 경우
+  - 이미 존재하는 프로젝트에 타입스크립트를 적용할 경우
+- 새로운 컴포넌트 생성하기
+  - React.FC의 장점
+  - React.FC의 단점
+  - 컴포넌트에 생략할 수 있는 props 설정하기
+  - 컴포넌트에서 함수 타입의 props 받아오기
+  - 정리
