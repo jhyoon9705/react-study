@@ -209,3 +209,17 @@ _Image taken from https://mokkapps.de/blog/debug-why-react-re-renders-a-componen
   - 컴포넌트에 생략할 수 있는 props 설정하기
   - 컴포넌트에서 함수 타입의 props 받아오기
   - 정리
+
+### [2022.02.16](https://github.com/jhyoon9705/react-study/blob/main/docs/20220216.md)
+
+#### 타입스크립트로 리액트 Hooks(useState, useReducer, useRef) 사용하기
+
+- useState 및 이벤트 관리
+  - 카운터 만들기
+  - 인풋 상태 관리하기
+- useReducer
+  - 카운터를 useReducer로 다시 구현하기
+  - ReducerSample 구현하기
+- useRef
+  - 변수 값 관리하기
+  - DOM 관리하기
